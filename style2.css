@@ -1,0 +1,277 @@
+body{
+    
+    height: 5065px;
+    min-height: 900px;
+    background-color: #F2F6F5;
+    margin:0;
+
+  
+    
+}
+
+.head{
+    background-color: #F2F6F5;
+    width:1344px;
+    height:80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    
+}
+.head h1{
+    padding:0px 48px;
+   
+}
+nav ul{
+    list-style:none;
+    display: flex;
+    gap:32px;
+    margin:0px;
+}
+nav ul li a{
+   text-decoration:none;
+   color:#000000;
+   font-size:28px;
+   font-weight: 400;
+   line-height:32px;
+   letter-spacing:-1%;
+   font-family:"BIZ UDPMincho", serif;;
+
+}
+.divider{
+    width:100%;
+    border-bottom:1px solid #000000;
+    align-items: center;
+    padding: 0%;
+    margin: 0%;  
+}
+
+
+main{
+    width:100%;
+    height:4817px;
+    padding:48px 0;
+}
+
+.mains{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:1344px;
+    height:1152PX;
+    padding:96px 0;
+    gap: 48px;
+    border-bottom: 1px solid #F2F6F5;
+    box-sizing:border-box;
+}
+.main-heading p{
+   
+    
+    font-family: "BIZ UDPMincho", serif;
+    font-size:120px;
+    font-weight: 400;
+    line-height: 120px;
+    text-align: center;
+    letter-spacing: -2%;
+    margin: 0%;
+    
+}
+
+.mains img {
+    width: 1344px;
+    height:672px;
+    border-radius:56px;
+  border: 1px solid #000000 ;
+  align-items: center;
+  display:block;
+  margin-left:150PX;
+
+}
+
+.description{
+    width:1344px;
+    height:452px;
+    border-bottom:1px solid #F2F6F5;
+    background-color: #F2F6F5;
+    padding:96px 0px;
+    align-items:center;
+   display: flex;
+flex-direction: column;
+
+}
+
+
+.description .first-para{
+    width:900px;
+    height:200px;
+    max-width: 900px;
+    align-items:center;
+    display: flex;
+    }
+    .description .first-para p{
+        font-family: BIZ UDPMincho;
+        font-weight:400;
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: -1%;
+        text-align: center;
+    
+    }
+    
+    .approch{
+        width:100%;
+        height:200px;
+        gap:48px;
+        background-color: #F2F6F5;
+        display: flex;
+        justify-content:flex-end;
+        
+       
+    }
+    .approch .second-para{
+        width:648px;
+        height:1px; display: flex;
+        justify-content: flex-end;
+    
+    }
+    .approch .second-para p{
+        font-family: gothic A1;
+        font-weight: 400;
+        font-size:24px;
+        line-height: 32px;
+        letter-spacing:-0.5%;
+    
+        
+        
+    }
+.Project{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.project1{
+    width: 416px;
+    height:333px;
+    gap:8px
+}
+.project1 img{
+    width:416px;
+    height:277px;
+    border:1px solid #00000000; 
+}
+
+
+
+
+.portfolio{
+    width:1344px;
+    height:516px;
+    background: #F2F6F5;
+}
+.featured-images{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:48px;
+    padding-left: 0%;
+}
+
+
+.featured-images .image1{
+    width:300x;
+    height:420px;
+    border:1px;
+    gap:48px
+}
+.featured-images .image2{
+    width:540;
+    height:420px;
+    border:1px;
+    gap:48px
+}
+.featured-images .image3{
+    width:385px;
+    height:420px;
+    border:1px;
+    gap:48px
+}
+
+.review{
+   width:1344px;
+   height:460px;
+   border-bottom:1px;
+   padding-top:48px;
+   padding-bottom:48px;
+   gap:48px;
+   background-color: #F2F6F5;
+
+}
+
+.client-review{
+    width:1260px;
+    height:52px;
+    max-width: 1260px;
+
+}
+.client-review h2{
+    font-family: BIZ UDPMincho;
+    font-weight: 400;
+    font-size: 48px;
+    line-height:52px;
+    letter-spacing:-1%;
+    text-align: center;
+}
+
+.clients{
+    width:1344px;
+    height:264px;
+    gap:24px;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+ 
+
+}
+.clients img{
+    width:48px;
+    height:48px;
+    border-radius:999px;
+}
+.client1{
+    width:288px;
+    height:264px;
+    border-radius: 16px;
+    border:1px solid #000000;
+    padding:24px;
+    gap:16px
+
+}
+
+.client2{
+    width:288px;
+    height:216px;
+    border-radius: 16px;
+    border:1px solid #000000;
+    gap:16px
+    
+}
+
+.client3{
+    width:288px;
+    height:264px;
+    border-radius: 16px;
+    border:1px solid #000000;
+    gap:16px;
+    padding:24px;
+    
+}
+
+.client4{
+    width:288px;
+    height:264px;
+    border-radius: 16px;
+    border:1px solid #000000;
+    gap:16px;
+    padding:24px
+
+    
+}
+
